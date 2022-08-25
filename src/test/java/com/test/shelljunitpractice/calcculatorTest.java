@@ -35,6 +35,14 @@ public class calcculatorTest {
 		Assert.assertEquals(expectedResult, actualResult);
 	}
 	
+	//This is new code after cloning and checking out
+	@Test
+	public void anotherMethod() {
+		int expectedResult = 5;
+		int actualResult = calc.subtraction(10, 5);
+		Assert.assertEquals(expectedResult, actualResult);
+	}
+	
 	@After
 	public void tearDown() {
 		System.out.println("Testcase is Completed");
